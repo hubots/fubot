@@ -12,6 +12,18 @@ module.exports = (robot) ->
 
   console.log "loading custom script"
 
+  rndint = (min, max) ->
+    Math.floor(Math.random() * (max - min + 1)) + min
+
+  # top boobs
+  boobs = [
+    # todo add more links
+    "http://2.bp.blogspot.com/-kTnQEF2rBus/VSqRY9ZrZ1I/AAAAAAAAB7c/GZ8_slepA5w/s1600/what-are-awesome-facts-about-boobs-1295273339-may-23-2013-1-600x450.jpg"
+  ]
+
+  robot.hear /boobs/i, (res) ->
+    res.send boobs[rndint(0, boobs.length)]
+
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
