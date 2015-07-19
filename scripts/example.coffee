@@ -10,6 +10,12 @@
 
 module.exports = (robot) ->
 
+  console.log "loading custom script"
+
+  robot.hear /hi/i, (res) ->
+    console.log "received hi"
+    res.send "hi all"
+
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
