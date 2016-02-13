@@ -3,6 +3,20 @@
   "version": "0.1.0",
   "author": "Sergey Todyshev <stodyshev@gmail.com>",
   "description": "provoker of good emotions",
+	"license": "MIT",
+	"homepage": "https://github.com/hubots/fubot",
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/hubots/fubot"
+  },
+	"bugs": {
+    "url": "https://github.com/hubots/fubot/issues"
+  },
+	"keywords": [
+    "hubot",
+    "fun",
+		"humor"
+  ],
   "dependencies": {
     "big-integer": "^1.6.11",
     "cheerio": "^0.20.0",
