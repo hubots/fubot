@@ -18,8 +18,8 @@
     "humor"
   ],
   "dependencies": {
-    "big-integer": "^1.6.15",
-    "cheerio": "^0.20.0",
+    "big-integer": "^1.6.17",
+    "cheerio": "^0.22.0",
     "htmlparser": "^1.7.7",
     "hubot": "^2.19.0",
     "hubot-campfire-adapter": "^0.1.29",
