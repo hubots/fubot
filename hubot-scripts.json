@@ -1,7 +1,5 @@
 [
-	"9gag.coffee",
 	"animal.coffee",
-	"ascii.coffee",
 	"aww.coffee",
 	"bang-bang.coffee",
 	"base36.coffee",
@@ -18,8 +16,6 @@
 	"devexcuse.coffee",
 	"dilbert.coffee",
 	"email.coffee",
-	"emoji-me.coffee",
-	"emoji.coffee",
 	"eval.coffee",
 	"fibonacci.coffee",
 	"foass.coffee",
