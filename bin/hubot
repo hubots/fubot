@@ -5,10 +5,9 @@ set -e
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 export HUBOT_LOG_LEVEL="debug"
-export HUBOT_CAMPFIRE_HOST="localhost"
-export HUBOT_CAMPFIRE_PORT="3000"
-export HUBOT_CAMPFIRE_APIPREFIX="api"
-export HUBOT_CAMPFIRE_TOKEN="hubot:hub0t2015"
-export HUBOT_CAMPFIRE_ACCOUNT="hubot"
+export HUBOT_CHAT_HOST="localhost"
+export HUBOT_CHAT_PORT="3000"
+export HUBOT_CHAT_TOKEN="hubot:hub0t2015"
+export HUBOT_CHAT_ACCOUNT="hubot"
 
-exec node_modules/.bin/hubot --name "hubot" --adapter campfire-adapter "$@"
+exec node_modules/.bin/hubot --name "hubot" --adapter hubot-custom-adapter "$@"
