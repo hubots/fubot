@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "author": "Sergey Todyshev <stodyshev@gmail.com>",
   "description": "provoker of good emotions",
-	"license": "MIT",
-	"homepage": "https://github.com/hubots/fubot",
-	"repository": {
+  "license": "MIT",
+  "homepage": "https://github.com/hubots/fubot",
+  "repository": {
     "type": "git",
     "url": "https://github.com/hubots/fubot"
   },
-	"bugs": {
+  "bugs": {
     "url": "https://github.com/hubots/fubot/issues"
   },
-	"keywords": [
+  "keywords": [
     "hubot",
     "fun",
     "humor"
@@ -22,7 +22,7 @@
     "cheerio": "^0.22.0",
     "htmlparser": "^1.7.7",
     "hubot": "^2.19.0",
-    "hubot-campfire-adapter": "^0.1.29",
+    "hubot-custom-adapter": "^0.1.14",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
